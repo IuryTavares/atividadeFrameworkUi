@@ -1,0 +1,89 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\ewert\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\ewert\bin;D:\Arquivos de Programas\Git\mingw64\bin;D:\Arquivos de Programas\Git\usr\local\bin;D:\Arquivos de Programas\Git\usr\bin;D:\Arquivos de Programas\Git\usr\bin;D:\Arquivos de Programas\Git\mingw64\bin;D:\Arquivos de Programas\Git\usr\bin;C:\Users\ewert\bin;C:\Python39\Scripts;C:\Python39;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files\Haskell\bin;D:\Arquivos de Programas\8.6.5\lib\extralibs\bin;D:\Arquivos de Programas\8.6.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Autodesk Shared;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Arquivos de Programas\8.6.5\mingw\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\ewert\AppData\Roaming\cabal\bin;D:\Arquivos de Programas\bin;C:\Users\ewert\AppData\Local\Microsoft\WindowsApps;D:\Arquivos de Programas\Microsoft VS Code\bin;C:\ProgramData\Iury\GitHubDesktop\bin;C:\Users\ewert\AppData\Local\GitHubDesktop\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\chocolatey\bin;C:\Go\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\nodejs;C:\Users\ewert\AppData\Roaming\cabal\bin;D:\Arquivos de Programas\bin;C:\Users\ewert\AppData\Local\Microsoft\WindowsApps;D:\Arquivos de Programas\Microsoft VS Code\bin;C:\ProgramData\Iury\GitHubDesktop\bin;C:\Users\ewert\AppData\Local\GitHubDesktop\bin;C:\Users\ewert\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\chocolatey\lib\ghc\tools\ghc-8.10.2\bin;C:\tools\msys64;C:\Users\ewert\go\bin;C:\Users\ewert\AppData\Roaming\npm;D:\Arquivos de Programas\Git\usr\bin\vendor_perl;D:\Arquivos de Programas\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: https://npm.fontawesome.com/@fortawesome%2ffontawesome-free: authentication required
+      at Request.params.callback [as _callback] (C:\Users\ewert\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\ewert\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:376:20)
+      at Request.<anonymous> (C:\Users\ewert\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:376:20)
+      at IncomingMessage.<anonymous> (C:\Users\ewert\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:482:28)
+      at IncomingMessage.emit (events.js:388:22)
+      at endReadableNT (internal/streams/readable.js:1336:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+      "title": "SB Admin 2",
+      "name": "startbootstrap-sb-admin-2",
+      "version": "4.1.4",
+      "scripts": {
+          "start": "node_modules/.bin/gulp watch"
+      },
+      "description": "An open source Bootstrap 4 admin theme.",
+      "keywords": [
+          "css",
+          "sass",
+          "html",
+          "responsive",
+          "theme",
+          "template",
+          "admin",
+          "app"
+      ],
+      "homepage": "https://startbootstrap.com/theme/sb-admin-2",
+      "bugs": {
+          "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin-2/issues",
+          "email": "feedback@startbootstrap.com"
+      },
+      "license": "MIT",
+      "author": "Start Bootstrap",
+      "contributors": [
+          "David Miller (https://davidmiller.io/)"
+      ],
+      "repository": {
+          "type": "git",
+          "url": "https://github.com/StartBootstrap/startbootstrap-sb-admin-2.git"
+      },
+      "dependencies": {
+          "@fortawesome/fontawesome-free": "5.15.3",
+          "bootstrap": "4.6.0",
+          "chart.js": "2.9.4",
+          "datatables.net-bs4": "1.10.24",
+          "jquery": "3.6.0",
+          "jquery.easing": "^1.4.1"
+      },
+      "devDependencies": {
+          "browser-sync": "2.26.14",
+          "del": "6.0.0",
+          "gulp": "4.0.2",
+          "gulp-autoprefixer": "7.0.1",
+          "gulp-clean-css": "4.3.0",
+          "gulp-header": "2.0.9",
+          "gulp-plumber": "^1.2.1",
+          "gulp-rename": "2.0.0",
+          "gulp-sass": "4.1.0",
+          "gulp-uglify": "3.0.2",
+          "merge-stream": "2.0.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
