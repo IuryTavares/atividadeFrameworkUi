@@ -7,7 +7,7 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Sertão", "Zona da Mata", "Agreste", "Metropolitana"],
+    labels: ["Alimentação e Nutrição", "Jovens e Adultos", "Infantil", "Especial"],
     datasets: [{
       data: [45, 30, 15, 10],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc','#f6c23e'],
